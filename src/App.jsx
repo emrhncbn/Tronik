@@ -254,7 +254,7 @@ useEffect(() => {
     document.removeEventListener('keydown', handleKeyDown)
     document.removeEventListener('keyup', handleKeyUp)
   }
-}, [])
+}, [synthKeys])
 
 
   return (
